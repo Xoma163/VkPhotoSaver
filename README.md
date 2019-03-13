@@ -14,6 +14,8 @@ The program that allows you to save photos from the dialogue VK
 
 5) Run. Check your image directory.
 
+6) Additional. For detect all duplicates you can use [VisiPics](http://www.visipics.info/index.php?title=Download#Download_Links)
+
 # INFO
 250mb HTML file load RAM on 4gb. Be carefully!
 
