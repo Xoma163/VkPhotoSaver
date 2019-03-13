@@ -43,6 +43,8 @@ namespace VkPhotoSaver
 
             buttonCopyToClipboard.Enabled = true;
             buttonSaveToFile.Enabled = true;
+            Directory.CreateDirectory(HTML_DIR);
+            Directory.CreateDirectory(IMAGES_DIR);
         }
 
         //Main
@@ -144,6 +146,7 @@ namespace VkPhotoSaver
                     Logging(htmlFileName, links, distinctLinks, distinctLinks, badLinks);
                 }
             }
+            WriteText("End");
         }
         
         //Method save photos into dir
@@ -286,15 +289,26 @@ namespace VkPhotoSaver
 
         private void Form1_Shown(object sender, EventArgs e)
         {
-            using (StreamReader sr = new StreamReader("main.conf"))
+            try
             {
-                checkBoxPrintGoodLinks.Checked = Convert.ToBoolean(sr.ReadLine());
-                checkBoxPrintBadLinks.Checked = Convert.ToBoolean(sr.ReadLine());
-                checkBoxPrintLogs.Checked = Convert.ToBoolean(sr.ReadLine());
-                textBoxHtmlDir.Text = sr.ReadLine();
-                textBoxImagesDir.Text = sr.ReadLine();
-                textBoxIncludes.Text = sr.ReadLine();
-                textBoxExcludes.Text = sr.ReadLine();
+                using (StreamReader sr = new StreamReader("main.conf"))
+                {
+                    checkBoxPrintGoodLinks.Checked = Convert.ToBoolean(sr.ReadLine());
+                    checkBoxPrintBadLinks.Checked = Convert.ToBoolean(sr.ReadLine());
+                    checkBoxPrintLogs.Checked = Convert.ToBoolean(sr.ReadLine());
+                    textBoxHtmlDir.Text = sr.ReadLine();
+                    textBoxImagesDir.Text = sr.ReadLine();
+                    textBoxIncludes.Text = sr.ReadLine();
+                    textBoxExcludes.Text = sr.ReadLine();
+                }
+            }
+            catch (System.IO.FileNotFoundException)
+            {
+                // Nothing
+            }
+            catch
+            {
+
             }
         }
     }
