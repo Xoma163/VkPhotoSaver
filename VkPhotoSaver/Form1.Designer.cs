@@ -66,9 +66,9 @@
             // 
             this.buttonCopyToClipboard.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonCopyToClipboard.Enabled = false;
-            this.buttonCopyToClipboard.Location = new System.Drawing.Point(575, 247);
+            this.buttonCopyToClipboard.Location = new System.Drawing.Point(574, 247);
             this.buttonCopyToClipboard.Name = "buttonCopyToClipboard";
-            this.buttonCopyToClipboard.Size = new System.Drawing.Size(97, 23);
+            this.buttonCopyToClipboard.Size = new System.Drawing.Size(98, 23);
             this.buttonCopyToClipboard.TabIndex = 4;
             this.buttonCopyToClipboard.Text = "Copy to clipboard";
             this.buttonCopyToClipboard.UseVisualStyleBackColor = true;
@@ -78,9 +78,9 @@
             // 
             this.buttonSaveToFile.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonSaveToFile.Enabled = false;
-            this.buttonSaveToFile.Location = new System.Drawing.Point(455, 247);
+            this.buttonSaveToFile.Location = new System.Drawing.Point(457, 247);
             this.buttonSaveToFile.Name = "buttonSaveToFile";
-            this.buttonSaveToFile.Size = new System.Drawing.Size(97, 23);
+            this.buttonSaveToFile.Size = new System.Drawing.Size(98, 23);
             this.buttonSaveToFile.TabIndex = 5;
             this.buttonSaveToFile.Text = "Save to file";
             this.buttonSaveToFile.UseVisualStyleBackColor = true;
