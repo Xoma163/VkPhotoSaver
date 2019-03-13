@@ -14,7 +14,10 @@ The program that allows you to save photos from the dialogue VK
 
 5) Run. Check your image directory.
 
-#INFO
+# INFO
 250mb HTML file load RAM on 4gb. Be carefully!
 
 For nested messages and reposts using date of main message!
+
+# Download
+You can download compiled files with libs on this [link](http://xoma163.site/files/VkPhotoSaver.rar)
