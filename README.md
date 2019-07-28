@@ -6,7 +6,7 @@ You can download compiled files with libs on this [link](http://xoma163.site/fil
 
 # How to use
 1) [Additionally if you dont compile project] Install CsQuery in VisualStudio
-2) Install [VkOpt](https://chrome.google.com/webstore/detail/vkopt/hoboppgpbgclpfnjfdidokiilachfcbb)
+2) Install [VkOpt](https://vkopt.net/download/)
 3) Save yours dialogues with VkOpt
 
 ![Download button](https://pp.userapi.com/c845522/v845522169/1c902c/J9JG9AhZI7I.jpg)
