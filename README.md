@@ -2,7 +2,7 @@
 The program that allows you to save VK dialogue pictures
 
 # Download
-You can download compiled files with libs on this [link](http://xoma163.xyz/static/files/VkPhotoSaver.rar)
+You can download compiled files with libs on this [link](https://andrewsha.net/static/files/VkPhotoSaver.rar)
 
 # How to use
 1) [Additionally if you dont compile project] Install CsQuery in VisualStudio
